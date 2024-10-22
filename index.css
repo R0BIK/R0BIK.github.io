@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('fonts/Porsche Regular.ttf') format('ttf');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,14 +15,58 @@ body {
     padding: 0;
 }
 
-.container {
+ul {
     display: flex;
-    align-items: center;
+    list-style-type: none;
+}
+
+div {
+    box-shadow: 0 5px 15px 0 #f08c97;
+    background-color: #fc6878;
+    transition: 0.5s;
+    border-radius: 30px;
+    margin: 65px 42px;
+    min-width: 190px;
+    width: 190px;
+    height: 750px;
+    display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
-.container a {
+div:hover {
+    transform: translate(0,-3px);
+    background-color: #ffffff;
+    box-shadow: 0 20px 40px 0 #f08c97
+}
+
+div:hover .header {
+    font-size: 0;
+}
+
+div:hover .info {
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.header {
+    font-size: 55px;
+    color: white;
+    margin-top: 150px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: Porsche, serif;
+}
+
+.info {
+    font-family: Calibri, serif;
     color: black;
+    font-size: 0;
+    text-align: center;
+    align-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: #f08c97;
+    font-family: Porsche, serif;
+}
