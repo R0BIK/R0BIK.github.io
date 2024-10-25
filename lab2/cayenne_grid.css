@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 2fr 9fr 1fr;
+}
+
+.block1 {
+    display: grid;
+    background-color: gray;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    border-radius: clamp(2px, 1vw + 1vh, 40px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+    color: white;
+    font-family: Porsche, sans-serif;
+    font-size: clamp(5px, 3vh + 3vw, 100px);
+}
+
+.block2 {
+    background-image: url('https://i.pinimg.com/736x/94/03/e1/9403e171d0ce1cb82a2db481ef90d578.jpg');
+    background-size: cover;
+    background-position: center;
+    min-width: 200px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: grid;
+    border-radius: clamp(2px, 1vw + 1vh, 40px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+}
+
+.block6 {
+    background-color: #95a5bf;
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    display: grid;
+    border-radius: clamp(2px, 0.7vw + 0.7vh, 30px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+    color: black;
+    min-height: 40px;
+    font-family: Calibri, sans-serif;
+    font-size: clamp(5px, 1vw + 1vh, 40px);
+}
+
+.block4 {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/2025-porsche-cayenne-gts-103-6671d37275560.jpg');
+    background-size: cover;
+    background-position: center;
+    min-width: 200px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display: grid;
+    border-radius: clamp(2px, 1vw + 1vh, 40px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+}
+
+.middle {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-template-rows: 5fr 1fr;
+}
+
+.block3 {
+    grid-row: 1 / 2;
+    background-image: url("https://porsche.ua/storage/local/galleryItems/image/gallery4-1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    border-radius: clamp(2px, 1vw + 1vh, 40px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+    font-family: Porsche, sans-serif;
+    
+}
+
+.block5 {
+    grid-row: 2 / 3;
+    background-image: url("https://4x4adventure.ro/wp-content/uploads/2019/03/2019-Porsche-Cayenne-Coupe-1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    border-radius: clamp(2px, 1vw + 1vh, 40px);
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 80px 0 #333333;
+    color: white;
+    font-family: Porsche, sans-serif;
+    font-size: clamp(20px, 3vw + 3vh, 80px);
+}
+
+
+

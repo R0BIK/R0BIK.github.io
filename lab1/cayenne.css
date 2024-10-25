@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('fonts/Porsche Regular.ttf') format('ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.block1 {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    font-size: 40px;
+    color: #2f3030;
+    background-color: black;
+    font-family: "Porsche";
+    font-size: 10vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.block2 {
+    display: flex;
+    width: 30%;
+    background-image: url('https://i.pinimg.com/736x/94/03/e1/9403e171d0ce1cb82a2db481ef90d578.jpg');
+    background-size: cover;
+}
+
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.block6 {
+    display: flex;
+    background-image: url('https://www.ixbt.com/img/n1/news/2024/3/1/9967fe12-e076-4629-b7a0-f504842879c0_large.png');
+    background-position: center;
+    height: 30%;
+}
+
+.rows {
+    display: flex;
+    height: 70%;
+}
+
+.block4 {
+    display: flex;
+    background-image: url('https://www.scandiflick.eu/wp-content/uploads/2023/04/RoniCayenneVerticalB_08_590x.webp');
+    background-size: cover;
+	background-position: center;
+    width: 25%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.block3 {
+    display: flex;
+    height: 75%;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/2025-porsche-cayenne-gts-103-6671d37275560.jpg');
+    background-size: cover;
+    color: white;
+    padding: 15px;
+} 
+
+.block5 {
+    display: flex;
+    height: 25%;
+    font-size: 2.5vh;
+    background-color: black;
+}
+
+.left_urls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.left_urls li {
+    margin: 3vh;
+}
+
+.left_urls a {
+    color: white;
+    text-decoration: none;
+}
+
+.right_urls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.right_urls li {
+    margin: 3vh;
+}
+
+.right_urls a {
+    color: white;
+    text-decoration: none;
+}
+
