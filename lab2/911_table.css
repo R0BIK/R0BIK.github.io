@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    height: 100vh;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.header {
+    background-color: gray;
+    height: 20vh;
+    text-align: center;
+    font-size: 8vmin;
+    font-family: Porsche, sans-serif;
+}
+
+.left_block {
+    width: 20vw;
+    background-image: url('https://www.mad4wheels.com/img/free-car-images/mobile/14837/porsche-911-991-gt3-rs-2015-434605.jpg');
+    background-size: cover;
+    background-position: center;}
+
+.main {
+    width: 60vw;
+    height: 35vh;
+    background-image: url('https://brixtonforged.com/wp-content/uploads/2022/03/brixton-forged-wheels-grey-porsche-991-turbo-s-911-brixton-forged-m53-targa-series-center-lock-3-piece-concave-forged-wheels-black-21-9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.right_block {
+    width: 20vw;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/topcar-porsche-911-turbo-s-stinger-gtr-carbon-edition-2022-1080x2160-8122.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.middle {
+    width: 60vw;
+    height: 25vh;
+    background-image: url('https://assets.porsche.com/ua/kyivairport/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Turbo/General-Model/General-model_911-Turbo.jpg?rev=-1');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.footer {
+    width: 80vw;
+    height: 20vh;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/porsche-911-carrera-3440x1440-9258.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.middle a {
+    text-decoration: none;
+    color: black;
+    margin: 2vmin;
+    font-family: Porsche, sans-serif;
+    font-size: 3vmin;
+}
+
+.middle p {
+    padding: 2vmin;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1vh 20vw;
+}

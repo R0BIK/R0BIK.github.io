@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Porsche";
-    src: url('fonts/Porsche Regular.ttf') format('ttf');
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
 }
 
 * {

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Porsche";
-    src: url('fonts/Porsche Regular.ttf') format('ttf');
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
 }
 
 * {
@@ -23,14 +23,12 @@ body {
 
 .block1 {
     display: flex;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
     height: 10%;
-    font-size: 40px;
     color: #2f3030;
     background-color: black;
-    font-family: "Porsche";
+    font-family: "Porsche", sans-serif;
     font-size: 10vh;
 }
 
