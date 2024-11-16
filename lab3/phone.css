@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: #2f3030;
+    background-color: black;
+    font-family: "Porsche", sans-serif;
+    font-size: 8vmin;
+}
+
+.porsche_logo {
+    scale: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.block2 {
+    display: flex;
+    width: 30vw;
+    background-image: url('https://www.autocar.co.uk/sites/autocar.co.uk/files/porsche_macan_4s_urban.jpg');
+    background-size: cover;
+	background-position: center;
+}
+
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.block6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #2f3030;
+    height: 40vh;
+    padding: 30px;
+    color: white;
+    font-size: 2vmin;
+    align-items: center;
+    justify-content: center;
+}
+
+.rows {
+    display: flex;
+    height: 60vh;
+}
+
+.block4 {
+    display: flex;
+    background-image: url('https://www.hdwallpapers.in/download/2017_porsche_macan_turbo_performance_edition_4k-1440x2560.jpg');
+    background-size: cover;
+    width: 25vw;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+
+.block3 {
+    display: flex;
+    height: 75vh;
+    background-image: url('https://nextcar.ua/images/companies/1/macan_ev/porsche_macan_ev%20(7).jpg?1706209312244');
+    background-size: cover;
+    font-size: 2.2vmin;
+    color: white;
+    padding: 15px;
+} 
+
+.block5 {
+    display: flex;
+    height: 25vh;
+    background-color: black;
+    justify-content: center;
+    font-size: 3vmin;
+    background-image: url('https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXABuN9dMGF4tl3U0%25z8rMH8spbWvanYb%255y%25oq%25vSTmjMXD4qAZeoNBPUSfUx4RmHlCgI7Zl2dioCt1qQDcFGHjzYnfurDX95yPewCozhRc2GvbqA7fQr7DOJUPYNerTB8VuyY0oVk0DB3TwbupQNqjdtAsvyJ5P');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.block5 a {
+    height: 10vmin;
+    width: 21vmin;
+    display: flex;
+    background-color: #2f3030;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vmin;
+    font-size: 3vmin;
+    font-family: Porsche, sans-serif;
+    box-shadow: 0 5px 7px black;
+}
+
+@media (max-width: 768px) {
+    .block5 a {
+        height: 20vmin;
+        width: 42vmin;
+        font-size: 7vmin;
+        border-radius: 4vmin;
+    }
+    
+    .block1 {
+        height: 7vh;
+    }
+    
+    .content {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .block2 {
+        height: 20vh;
+        width: auto;
+    }
+
+    .columns {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .block6 {
+        height: 8vh;
+        width: auto;
+    }
+
+    .rows {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .block4 {
+        height: 20vh;
+        width: auto;
+    }
+
+    .center {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .block3 {
+        height: 20vh;
+        width: auto;
+    }
+
+    .block5 {
+        height: 25vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 315px) {
+    .block1 {
+        font-size: 0;
+    }
+
+    .porsche_logo {
+        scale: 130%;
+    }
+}
+
+
+
+
+
