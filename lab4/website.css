@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Porsche";
+    src: url('../fonts/Porsche Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url('../fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: white;
+}
+
+.header p {
+    color: black;
+    margin: 7vh 68vw 3vh 6vw;
+    font-size: 2.7vmin;
+    font-family: Comfortaa, sans-serif;
+}
+
+.visual {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    background-color: white;
+}
+
+.textbg {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin: 0 0 10vh 35vw;
+    z-index: 1;
+    width: 55vmin;  
+    height: 23vmin;
+    background-color: white;
+}
+
+.block1 p {
+    color: black;
+    font-family: Porsche, sans-serif;
+    font-size: 5vmin;
+    margin: 0 0 0 2vw;
+}
+
+.block2 {
+    display: flex;
+    width: 70vw;
+    background-color: #5f8572;
+    align-items: center;
+}
+
+.image {
+    background-image: url("https://images-porsche.imgix.net/-/media/47D326D389AE47B99BBE9177E3FC3F25_522CAD411FE54A179D462BAE2E058D69_CZ25W25OX0002-911-carrera-t-side?w=900&q=85&crop=faces%2Centropy%2Cedges&auto=format");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 50vw;
+    margin: 0 0 35vh 5vw;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: #2f3030;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: -60px;
+    transition: bottom 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Comfortaa, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.footer.show {
+    bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .header {
+        height: 45vh;
+    }
+    
+    .visual {
+        height: 50vh;
+    }
+
+    .header p {
+        margin: 0 13vw 15vh 20vw;
+        font-size: 4.5vmin;
+    }
+
+    .image {
+        display: flex;
+        height: 60vh;
+        width: 70vw;
+        margin: 0 0 20vh 0;
+        position: absolute;
+        left: 20%;
+    }
+
+    .textbg {
+        margin: 10vh 0 0 35vw;
+    }
+    
+    .footer {
+        height: 5vh;
+        min-height: 60px;
+        position: static;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
