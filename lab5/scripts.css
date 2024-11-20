@@ -30,6 +30,18 @@ body {
     font-size: 8vmin;
 }
 
+.block1.swapped {
+    color: white;
+    font-size: 2vmin;
+    font-family: Comfortaa, sans-serif;
+}
+
+.block6.swapped {
+    color: white;
+    font-family: "Porsche", sans-serif;
+    font-size: 8vmin;
+}
+
 .porsche_logo {
     height: 0;
 }
@@ -43,11 +55,55 @@ body {
 .block2 {
     display: flex;
     width: 30vw;
-    background-image: url('https://www.autocar.co.uk/sites/autocar.co.uk/files/porsche_macan_4s_urban.jpg');
+    background-image: url('../source/911.avif');
     background-size: cover;
 	background-position: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 2vmin;
+    border-radius: 2vmin;
+    background-color: #2f3030;
+    color: white;
+    border-width: 0;
+    font-size: 2vmin;
+    margin: 2vmin;
+}
+
+.buttons button:hover {
+    background-color: #3e4040;
+}
+
+.dynamicList {
+    overflow-y: scroll;
+    padding-right: 2vw;
+    color: white;
+    font-size: 2vmin;
+    text-shadow: 0 0.1vmin 0.5vmin black;
+    margin-bottom: 2vmin;
+}
+
+.removeButton {
+    padding: 1vmin;
+    border-radius: 1.5vmin;
+    background-color: #2f3030;
+    color: white;
+    font-size: 1.5vmin;
+    border-width: 0;
+    margin: 1vmin;
+}
+
+.removeButton:hover {
+    background-color: #3e4040;
+}
 
 .columns {
     display: flex;
@@ -59,8 +115,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #2f3030;
-    height: 40vh;
-    padding: 30px;
+    height: 25vh;
+    padding: 2.4vmin;
     color: white;
     font-size: 2vmin;
     align-items: center;
@@ -69,13 +125,14 @@ body {
 
 .rows {
     display: flex;
-    height: 60vh;
+    height: 75vh;
 }
 
 .block4 {
     display: flex;
-    background-image: url('https://www.hdwallpapers.in/download/2017_porsche_macan_turbo_performance_edition_4k-1440x2560.jpg');
+    background-image: url('../source/cabri.avif');
     background-size: cover;
+    background-position: center;
     width: 25vw;
 }
 
@@ -87,39 +144,96 @@ body {
 
 .block3 {
     display: flex;
-    height: 75vh;
-    background-image: url('https://nextcar.ua/images/companies/1/macan_ev/porsche_macan_ev%20(7).jpg?1706209312244');
+    flex-direction: column;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../source/911gt.avif');
     background-size: cover;
+    background-position: center;
     font-size: 2.2vmin;
     color: white;
     padding: 15px;
-} 
+}
+
+.calc {
+    padding: 2vmin;
+    border-radius: 2vmin;
+    background-color: #2f3030;
+    color: white;
+    border-width: 0;
+    font-size: 2vmin;
+    margin: 2vmin;
+}
+
+.calc:hover {
+    background-color: #3e4040;
+}
+
+.resultBlock {
+    padding: 1.5vmin;
+    background-color: #2f3030;
+    border-radius: 1.5vmin;
+    margin: 2vmin;
+    font-size: 2vmin;
+    font-family: "Comfortaa", sans-serif;
+}
 
 .block5 {
     display: flex;
-    height: 25vh;
+    height: 35vh;
     background-color: black;
     justify-content: center;
     font-size: 3vmin;
-    background-image: url('https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711coMvsi60AAt5FwcmBEgA4qP8iBUDxPE3Cb9pNXABuN9dMGF4tl3U0%25z8rMH8spbWvanYb%255y%25oq%25vSTmjMXD4qAZeoNBPUSfUx4RmHlCgI7Zl2dioCt1qQDcFGHjzYnfurDX95yPewCozhRc2GvbqA7fQr7DOJUPYNerTB8VuyY0oVk0DB3TwbupQNqjdtAsvyJ5P');
+    background-image: url('../source/uni.avif');
     background-size: cover;
     background-position: center;
     align-items: center;
 }
 
-.block5 a {
-    height: 10vmin;
-    width: 21vmin;
-    display: flex;
+.reverse::-webkit-inner-spin-button,
+.reverse::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.reverse {
+    margin: 2vmin;
+    border-width: 0;
+    border-radius: 1.5vmin;
+    height: 5vh;
+    width: 15vw;
+    padding: 1.5vmin;
+    font-size: 1.9vmin;
     background-color: #2f3030;
-    text-decoration: none;
     color: white;
-    align-items: center;
-    justify-content: center;
+}
+
+.swap {
+    padding: 2vmin;
     border-radius: 2vmin;
-    font-size: 3vmin;
-    font-family: Porsche, sans-serif;
-    box-shadow: 0 5px 7px black;
+    background-color: #2f3030;
+    color: white;
+    border-width: 0;
+    font-size: 2vmin;
+}
+
+.swap:hover {
+    background-color: #3e4040;
+}
+
+.align3 {
+    display: flex;
+    padding: 2vmin;
+    border-radius: 2vmin;
+    background-color: #2f3030;
+    color: white;
+    border-width: 0;
+    font-size: 2vmin;
+    margin: 2vmin;
+}
+
+.align3:hover {
+    background-color: #3e4040;
 }
 
 @media (max-width: 768px) {
@@ -129,11 +243,16 @@ body {
         font-size: 7vmin;
         border-radius: 4vmin;
     }
-    
+
+    .block3 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .block1 {
         height: 7vh;
     }
-    
+
     .content {
         flex-direction: column;
         height: auto;

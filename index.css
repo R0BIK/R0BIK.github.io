@@ -3,6 +3,11 @@
     src: url('fonts/Porsche Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Comfortaa";
+    src: url('fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +23,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
 }
 
 div {
@@ -25,7 +31,7 @@ div {
     background-color: #fc6878;
     transition: 0.5s;
     border-radius: 30px;
-    margin: 65px 42px;
+    margin: 7vh 42px;
     min-width: 190px;
     min-height: 600px;
     width: 190px;
@@ -45,7 +51,7 @@ div:hover .header {
 }
 
 div:hover .info {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 20px;
 }
 
@@ -60,7 +66,7 @@ div:hover .info {
 }
 
 .info {
-    font-family: Calibri, serif;
+    font-family: Comfortaa, serif;
     color: black;
     font-size: 0;
     text-align: center;
